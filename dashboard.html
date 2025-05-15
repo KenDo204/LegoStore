@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Lego-Logo-1955.png" type="image/x-icon">
+    <title>LegoStore - Dashboard</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-dashboard">
+        <div class="logo">
+          <div class="menu-bar">
+            <i class="bi bi-list"></i>
+          </div>
+          <a href="index.html">
+            <img src="./images/Lego-Logo-1955.png" alt="logo">
+          </a>
+        </div>
+        <div class="admin-user">
+          <span>Xin chào, <strong>admin</strong></span> <img src="./images/avatar-admin.png" alt="avatar-admin">
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content-wrapper">
+        <div class="admin-navigation">
+          <div class="admin-nav-container">
+            <div class="admin-nav">
+              <ul class="nav-list">
+                <li class="root-nav-item">
+                  <div class="nav-item-title">CHUNG</div>
+                  <ul class="item-group">
+                    <li class="nav-item active">
+                      <a href="dashboard.html">
+                        <i class="bi bi-speedometer2"></i>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="dashboard-add-product.html">
+                        <i class="bi bi-plus-square"></i>
+                        Thêm sản phẩm
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="dashboard-add-category.html">
+                        <i class="bi bi-plus-square"></i>
+                        Thêm danh mục
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav-list">
+                <li class="root-nav-item">
+                  <div class="nav-item-title">QUẢN LÍ</div>
+                  <ul class="item-group">
+                    <li class="nav-item">
+                      <a href="dashboard-products.html">
+                        <i class="bi bi-bag-plus-fill"></i>
+                        Sản phẩm
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="dashboard-categories.html">
+                        <i class="bi bi-link-45deg"></i>
+                        Danh mục
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        <i class="bi bi-people-fill"></i>
+                        Người dùng
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        <i class="bi bi-box"></i>
+                        Đơn hàng
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="main-content-inner">
+            <div class="report-sales">
+              <div class="sales-product">
+                <div class="sales-product-title">
+                  <h2>Doanh số bán hàng</h2>
+                </div>
+                <canvas id="chartSalesProduct" style="max-height: 500px; width: 100%; max-width: 100%"></canvas>
+              </div>
+              <div class="orders-total">
+                <div class="orders-total-title"><h2>Tổng đơn hàng</h2></div>
+                <canvas id="chartOrdersTotal" style="color: yellow ;max-height: 500px; width: 100%; max-width: 100%"></canvas>
+              </div>
+            </div>
+            <div class="report-dashboard">
+              <div class="report-sales-daily">
+                <span class="report-title">Doanh số hằng ngày</span>
+                <canvas id="chartSalesDaily" style="max-height: 500px; width: 100%; max-width: 100%"></canvas>
+              </div>
+              <div class="report-order-month">
+                <span class="report-title">54 đơn hàng</span>
+                <p>Đơn hàng tháng này</p>
+                <canvas id="chartOrderMonthly" style="max-height: 500px; width: 100%; max-width: 100%"></canvas>
+              </div>
+              <div class="report-profit">
+                <span class="report-title">Lợi nhuận</span>
+                <canvas id="chartProfit" style="max-height: 500px; width: 100%; max-width: 100%"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Chartjs -->
+    <script src="./js/chart.umd.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="./js/Chart.js"></script>
+    <script src="./js/chartjs.js"></script>
+    <script src="./js/dashboard.js"></script>
+  
+
+</body>
+</html>

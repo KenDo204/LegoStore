@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Lego-Logo-1955.png" type="image/x-icon">
+    <title>LegoStore - Store</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/owl.theme.default.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="./text/css" href="./css/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/store.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-middle">
+          <div class="container">
+            <div class="row py-4">
+              <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="./images/Lego-Logo-1955.png" alt="logo">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-12 col-12">
+                <form action="" class="frm-search">
+                  <div class="search-bar d-flex">
+                    <input class="search" type="text" placeholder="Nhập tìm kiếm..." name="search" id="search">
+                    <button type="submit" class="btn-search">Tìm kiếm</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="header-middle-right">
+                  <div class="login-info">
+                    <a href="login.html">
+                      <div class="login">
+                          <i class="bi bi-person"></i>
+                        Đăng nhập
+                      </div>
+                    </a>
+                  </div>
+                  <div class="cart-info">
+                    <div class="cart">
+                      <div class="cart-icon">
+                        <span class="cart-count">0</span>
+                        <i class="bi bi-cart"></i>
+                      </div>
+                      <span class="cart-title">Giỏ hàng</span>
+                    </div>
+                    <div class="mini-cart">
+                      <ul class="cart-list"></ul>
+                      <div class="total-group">
+                        <div class="total-text"><strong>Tổng:</strong></div>
+                        <div class="total-price">0</div>
+                      </div>
+                      <div class="btn-cart-group">
+                        <a href="cart-detail.html" class="cart-button">
+                          Xem giỏ hàng
+                        </a>
+                        <a href="checkout.html" class="cart-button">
+                          Thanh Toán
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container full-sm">
+            <div class="nav-menu">
+              <div class="categories">
+                <div class="categories-menu">
+                  <i class="bi bi-text-left"></i> <span>Danh mục sản phẩm</span>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="categories-content">
+                  <ul class="categories-list">
+                      <!-- <li class="categories-item">
+                          <a href="">Lego City</a>
+                      </li>
+                      <li class="categories-item">
+                          <a href="">Lego F1</a>
+                      </li>
+                      <li class="categories-item">
+                          <a href="">Lego Champions</a>
+                      </li>
+                      <li class="categories-item">
+                          <a href="">Leo Star Wars</a>
+                      </li> -->
+                  </ul>
+                </div>
+              </div>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Trang chủ</a></li>
+                <li class="menu-item"><a href="store.html">Cửa hàng</a></li>
+                <li class="menu-item"><a href="about.html">Về chúng tôi</a></li>
+                <li class="menu-item"><a href="labs.html">Lab thực hành</a></li>
+              </ul>
+              <div class="menu-bar">
+                <i class="bi bi-list"></i>
+              </div>
+              <div class="menu-close hidden">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <nav class="menu-mobile-nav">
+              <ul class="menu-mobile">
+                <li class="menu-mobile-item">
+                  <a href="index.html">Trang chủ</a>
+                </li>
+                <li class="menu-mobile-item">
+                  <a href="store.html">Cửa hàng</a>
+                </li>
+                <li class="menu-mobile-item">
+                  <a href="about.html">Về chúng tôi</a>
+                </li>
+                <li class="menu-mobile-item">
+                  <a href="labs.html">Lab thực hành</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="shop-wrapper mb-3">
+          <div class="container">
+            <div class="shop mt-5">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="shop-sidebar-inner">
+                    <div class="single-sidebar">
+                      <div class="sidebar-inner-title">
+                        <h3>Danh Mục</h3>
+                        <hr>
+                      </div>
+                      <div class="sidebar-content-box">
+                        <div class="filter-attribute-container">
+                          <ul class="checkbox-list-category">
+                            <li>
+                                <input type="checkbox" name="category-filter" id="data-category-0">
+                                <label for="data-category-0">Lego City</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category-filter" id="data-category-1">
+                                <label for="data-category-1">Lego F1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category-filter" id="data-category-2">
+                                <label for="data-category-2">Lego Star Wars</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category-filter" id="data-category-3">
+                                <label for="data-category-3">Lego Speed Champions</label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="single-sidebar mt-3">
+                      <div class="sidebar-inner-title">
+                        <h3>Lọc Giá</h3>
+                        <hr>
+                      </div>
+                      <div class="sidebar-content-box">
+                        <div class="filter-attribute-container">
+                            <ul class="checkbox-list-price">
+                                <li>
+                                  <input type="checkbox" name="brand-filter" id="data-brand-1">
+                                  <label for="data-brand-1">Dưới 1,000,000đ</label>
+                                </li>
+                                <li>
+                                  <input type="checkbox" name="brand-filter" id="data-brand-1">
+                                  <label for="data-brand-1">1,000,000đ đến 2,000,000đ</label>
+                                </li>
+                                <li>
+                                  <input type="checkbox" name="brand-filter" id="data-brand-1">
+                                  <label for="data-brand-1">2,000,000đ đến 3,000,000đ</label>
+                                </li>
+                                <li>
+                                  <input type="checkbox" name="brand-filter" id="data-brand-1">
+                                  <label for="data-brand-1">3,000,000 đến 4,000,000đ</label>
+                                </li>
+                                <li>
+                                  <input type="checkbox" name="brand-filter" id="data-brand-1">
+                                  <label for="data-brand-1">Trên 4,000,000đ</label>
+                                </li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 order-first order-lg-last">
+                  <div class="product-list-title"></div>
+                  <div class="product-list-store">
+                    <div class="product-item" id="1">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=1">
+                                <img src="./images/Lego_Champions/1970 Ferrari 512 M/1970 Ferrari 512 M_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=1">
+                                    <h4>1970 Ferrari 512 M</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick=addToCart(1) type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=2">
+                                <img src="./images/Lego_Champions/Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3/Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=2">
+                                    <h4>Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(2)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=3">
+                                <img src="./images/Lego_Champions/Audi S1 e-tron quattro/Audi S1 e-tron quattro_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=3">
+                                    <h4>Audi S1 e-tron quattro</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(3)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=4">
+                                <img src="./images/Lego_Champions/BMW M4 GT3 & BMW M Hybrid V8/BMW M4 GT3 & BMW M Hybrid V8_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=4">
+                                    <h4>BMW M4 GT3 & BMW M Hybrid V8</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(4)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=5">
+                                <img src="./images/Lego_Champions/Bugatti Centodieci Hyper Sports Car/Bugatti Centodieci Hyper Sports Car_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=5">
+                                    <h4>Bugatti Centodieci Hyper Sports Car</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(5)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=6">
+                                <img src="./images/Lego_Champions/Dodge Challenger SRT Hellcat Sports Car/Dodge Challenger SRT Hellcat Sports Car_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=6">
+                                    <h4>Dodge Challenger SRT Hellcat Sports Car</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(6)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=7">
+                                <img src="./images/Lego_Champions/Fast & Furious Honda S2000/Fast & Furious Honda S2000_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=7">
+                                    <h4>Fast & Furious Honda S2000</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(7)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=8">
+                                <img src="./images/Lego_Champions/Ferrari 812 Competizione/Ferrari 812 Competizione_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=8">
+                                    <h4>Ferrari 812 Competizione</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(8)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=9">
+                                <img src="./images/Lego_Champions/Ferrari F40/Ferrari F40_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=9">
+                                    <h4>Ferrari F40</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(9)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=10">
+                                <img src="./images/Lego_City/Airport Passenger Airplane/Airport Passenger Airplane_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=10">
+                                    <h4>Airport Passenger Airplane</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(10)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=11">
+                                <img src="./images/Lego_City/Arctic Explorer Science Lab Truck/Arctic Explorer Science Lab Truck_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=11">
+                                    <h4>Arctic Explorer Science Lab Truck</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    3,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    3,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(11)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=12">
+                                <img src="./images/Lego_City/Arctic Research Ship/Arctic Research Ship_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=12">
+                                    <h4>Arctic Research Ship</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    4,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    4,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(12)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=13">
+                                <img src="./images/Lego_City/Arctic Research Submarine/Arctic Research Submarine_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=13">
+                                    <h4>Arctic Research Submarine</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    3,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    3,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(13)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=14">
+                                <img src="./images/Lego_City/Central Train Station/Central Train Station_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=14">
+                                    <h4>Central Train Station</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    2,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    2,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(14)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=15">
+                                <img src="./images/Lego_City/City Ski and Climbing Center/City Ski and Climbing Center_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=15">
+                                    <h4>City Ski and Climbing Center</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    3,439,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    3,939,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(15)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=16">
+                                <img src="./images/Lego_City/Command Rover and Crane Loader/Space Command Rover and Crane Loader_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=16">
+                                    <h4>Command Rover and Crane Loader</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(16)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=17">
+                                <img src="./images/Lego_City/Construction Yellow Bulldozer/Construction Yellow Bulldozer_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Champions
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=17">
+                                    <h4>Construction Yellow Bulldozer</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    3,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    4,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(17)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=18">
+                                <img src="./images/Lego_City/Custom Police Car Garage/Custom Police Car Garage_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego City
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=18">
+                                    <h4>Custom Police Car Garage</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,439,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(18)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=19">
+                                <img src="./images/Lego_F1/Aston Martin Aramco F1 AMR24/Aston Martin Aramco F1 AMR24_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=19">
+                                    <h4>Aston Martin Aramco F1 AMR24</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(19)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=20">
+                                <img src="./images/Lego_F1/BWT Alpine F1 Team A524 Race Car/BWT Alpine F1 Team A524 Race Car_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=20">
+                                    <h4>BWT Alpine F1 Team A524 Race Car</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(20)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=21">
+                                <img src="./images/Lego_F1/Cash App VCARB 01 F1 Race Car/Cash App VCARB 01 F1 Race Car_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=21">
+                                    <h4>Cash App VCARB 01 F1 Race Car</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(21)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=22">
+                                <img src="./images/Lego_F1/McLaren MCL38/McLaren MCL38_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=22">
+                                    <h4>McLaren MCL38</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(22)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=23">
+                                <img src="./images/Lego_F1/McLaren MP4-Ayrton Senna/McLaren MP4-Ayrton Senna_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=23">
+                                    <h4>McLaren MP4-Ayrton Senna</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(23)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=24">
+                                <img src="./images/Lego_F1/Mercedes-AMG PETRONAS W15/Mercedes-AMG PETRONAS W15_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=24">
+                                    <h4>Mercedes-AMG PETRONAS W15</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(24)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=25">
+                                <img src="./images/Lego_F1/Oracle Red Bull Racing RB20/Oracle Red Bull Racing RB20_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=25">
+                                    <h4>Oracle Red Bull Racing RB20</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(25)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=26">
+                                <img src="./images/Lego_F1/Speed Champions Formula 1 Ferrari SF-24 F1/Speed Champions Formula 1 Ferrari SF-24 F1_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=26">
+                                    <h4>Ferrari SF-24 F1</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(26)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=27">
+                                <img src="./images/Lego_F1/Williams Racing FW46/Williams Racing FW46_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego F1
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=27">
+                                    <h4>Williams Racing FW46</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(27)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=28">
+                                <img src="./images/Lego_Star_Wars/Ahsoka Death Trooper & Night Trooper Battle Pack/Ahsoka Death Trooper & Night Trooper Battle Pack_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=28">
+                                    <h4>Ahsoka Death Trooper & Night Trooper Battle Pack</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(28)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=29">
+                                <img src="./images/Lego_Star_Wars/Andor Rebel U-Wing Starfighter/Andor Rebel U-Wing Starfighter_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=29">
+                                    <h4>Andor Rebel U-Wing Starfighter</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    2,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    2,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(29)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=30">
+                                <img src="./images/Lego_Star_Wars/ARC-170 Starfighter/ARC-170 Starfighter_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=30">
+                                    <h4>ARC-170 Starfighter</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    2,839,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    3,849,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(30)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=31">
+                                <img src="./images/Lego_Star_Wars/Brick-Built Star Wars Logo/Brick-Built Star Wars Logo_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=31">
+                                    <h4>Brick-Built Star Wars Logo</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    2,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    2,999,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(31)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=32">
+                                <img src="./images/Lego_Star_Wars/Buildable Droideka/Buildable Droideka_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=32">
+                                    <h4>Buildable Droideka</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    3,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    4,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(32)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=33">
+                                <img src="./images/Lego_Star_Wars/Darth Maul Mech/Darth Maul Mech_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=33">
+                                    <h4>Darth Maul Mech</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    2,339,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(33)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=34">
+                                <img src="./images/Lego_Star_Wars/Desert Skiff & Sarlacc Pit/Desert Skiff & Sarlacc Pit_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=34">
+                                    <h4>Desert Skiff & Sarlacc Pit</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    1,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    1,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(34)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=35">
+                                <img src="./images/Lego_Star_Wars/Helmet Collection Jango Fett Helmet/Helmet Collection Jango Fett Helmet_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=35">
+                                    <h4>Helmet Collection Jango Fett Helmet</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    739,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(35)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <a href="product-detail.html?id=36">
+                                <img src="./images/Lego_Star_Wars/Jabba's Sail Barge/Jabba's Sail Barge_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="product-caption">
+                            <div class="manufacture-product">
+                                Lego Star Wars
+                            </div>
+                            <div class="product-name">
+                                <a href="product-detail.html?id=36">
+                                    <h4>Jabba's Sail Barge</h4>
+                                </a>
+                            </div>
+                            <div class="price-box">
+                                <span class="regular-price sale">
+                                    2,239,000&nbsp;đ
+                                </span>
+                                <span class="old-price">
+                                    2,839,000&nbsp;đ
+                                </span>
+                            </div>
+                             <button class="btn-cart" onclick="addToCart(36)" type="button">Thêm vào giỏ hàng</button> <!--id của sản phẩm -->
+                        </div>
+                    </div>
+
+                                                                                                                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back-to-top"><i class="bi bi-arrow-up"></i></div>
+      </main>
+
+      <footer class="footer">
+        <div class="newsletter-group">
+          <div class="container">
+            <div class="newsletter-box">
+              <div class="newsletter-inner">
+                <div class="newsletter-title">
+                  <h3>Đăng kí nhận bản tin</h3>
+                  <p>Để nhận thông tin mới nhất từ Lego Store</p>
+                </div>
+                <div class="newsletter-mail">
+                  <form action="" class="mc-form">
+                    <div class="email-group">
+                      <input type="email" class="email-box" name="" id="mc-email" placeholder="Nhập địa chỉ email của bạn" required="" oninvalid="setCustomValidity('Vui lòng điền email của bạn')" oninput="setCustomValidity('')">
+                      <button class="btn-newsletter" type="submit" id="mc-submit">
+                        Đăng kí
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <div class="footer-single-widget">
+                  <div class="widget-title">
+                    <div class="footer-logo">
+                      <a href="#">
+                        <img src="./images/Lego-Logo-1955.png" alt="logo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="widget-body">
+                    Lego Store đề tài webisite bán lego môn học
+                    thực hành nhập môn web
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="footer-single-widget">
+                  <div class="widget-title">Thông tin</div>
+                  <div class="widget-body">
+                    <div class="footer-useful-link">
+                      <ul class="contact-list">
+                        <li class="contact-item">
+                          Địa chỉ: 180 Cao Lỗ, Phường 4, Quận 8, TP Hồ Chí Minh
+                        </li>
+                        <li class="contact-item">
+                          Email: DH52200923@student.stu.edu.vn
+                        </li>
+                        <li class="contact-item">Điện thoại: (012) 34 567 890</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6592.4985499755685!2d106.6789931371774!3d10.74041089759156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1714125058390!5m2!1svi!2s" width="100%" height="250" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <hr>
+                <div class="footer-copyright">
+                  Họ và tên: Đỗ Tiến Anh Khôi | MSSV: DH52200923 | Lớp: D22_TH04 |
+                  Nhóm 09 Thứ 03 Ca 03
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+      <script src="./js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- OwlCarousel2 -->
+      <script src="./js/owl.carousel.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Toast message -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+      <script src="./js/owl-carousel.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+</html>

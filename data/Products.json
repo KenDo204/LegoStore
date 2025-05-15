@@ -1,0 +1,362 @@
+[
+    {
+      "id": 1,
+      "name": "1970 Ferrari 512 M",
+      "price": 739000,
+      "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/1970 Ferrari 512 M/1970 Ferrari 512 M_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+    {
+      "id": 2,
+      "name": "Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3",
+      "price": 1390000,
+	  "price_old": 1839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3/Aston Martin Valkyrie AMR Pro and Aston Martin Vantage GT3_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 3,
+      "name": "Audi S1 e-tron quattro",
+      "price": 739000,
+      "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Audi S1 e-tron quattro/Audi S1 e-tron quattro_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+    {
+      "id": 4,
+      "name": "BMW M4 GT3 & BMW M Hybrid V8",
+      "price": 1390000,
+	  "price_old": 1839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/BMW M4 GT3 & BMW M Hybrid V8/BMW M4 GT3 & BMW M Hybrid V8_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 5,
+      "name": "Bugatti Centodieci Hyper Sports Car",
+      "price": 739000,
+      "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Bugatti Centodieci Hyper Sports Car/Bugatti Centodieci Hyper Sports Car_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+    {
+      "id": 6,
+      "name": "Dodge Challenger SRT Hellcat Sports Car",
+      "price": 7390000,
+	  "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Dodge Challenger SRT Hellcat Sports Car/Dodge Challenger SRT Hellcat Sports Car_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 7,
+      "name": "Fast & Furious Honda S2000",
+      "price": 739000,
+      "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Fast & Furious Honda S2000/Fast & Furious Honda S2000_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+    {
+      "id": 8,
+      "name": "Ferrari 812 Competizione",
+      "price": 7390000,
+	  "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/Ferrari 812 Competizione/Ferrari 812 Competizione_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 9,
+      "name": "1970 Ferrari 512 M",
+      "price": 739000,
+      "price_old": 839000,
+      "category": 3,
+      "brand": "Lego Speed Champions",
+      "img": "./images/Lego_Champions/1970 Ferrari 512 M/1970 Ferrari 512 M_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+    {
+      "id": 10,
+      "name": "Airport Passenger Airplane",
+      "price": 1390000,
+	  "price_old": 1839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Airport Passenger Airplane/Airport Passenger Airplane_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 11,
+      "name": "Arctic Explorer Science Lab Truck",
+      "price": 3390000,
+	  "price_old": 3839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Arctic Explorer Science Lab Truck/Arctic Explorer Science Lab Truck_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 12,
+      "name": "Arctic Research Ship",
+      "price": 4390000,
+	  "price_old": 4839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Arctic Research Ship/Arctic Research Ship_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 13,
+      "name": "Arctic Research Submarine",
+      "price": 3390000,
+	  "price_old": 3839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Arctic Research Submarine/Arctic Research Submarine_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 14,
+      "name": "Central Train Station",
+      "price": 2390000,
+	  "price_old": 2839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Central Train Station/Central Train Station_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 15,
+      "name": "City Ski and Climbing Center",
+      "price": 1390000,
+	  "price_old": 1839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/City Ski and Climbing Center/City Ski and Climbing Center_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 16,
+      "name": "Command Rover and Crane Loader",
+      "price": 4390000,
+	  "price_old": 5839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Command Rover and Crane Loader/Space Command Rover and Crane Loader_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 17,
+      "name": "Construction Yellow Bulldozer",
+      "price": 1390000,
+	  "price_old": 1839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Construction Yellow Bulldozer/Construction Yellow Bulldozer_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 18,
+      "name": "Custom Police Car Garage",
+      "price": 5390000,
+	  "price_old": 5839000,
+      "category": 1,
+      "brand": "Lego City",
+      "img": "./images/Lego_City/Custom Police Car Garage/Custom Police Car Garage_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 19,
+      "name": "Aston Martin Aramco F1 AMR24",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Aston Martin Aramco F1 AMR24/Aston Martin Aramco F1 AMR24_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 20,
+      "name": "BWT Alpine F1 Team A524 Race Car",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/BWT Alpine F1 Team A524 Race Car/BWT Alpine F1 Team A524 Race Car_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 21,
+      "name": "Cash App VCARB 01 F1 Race Car",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Cash App VCARB 01 F1 Race Car/Cash App VCARB 01 F1 Race Car_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 22,
+      "name": "McLaren MCL38",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/McLaren MCL38/McLaren MCL38.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 23,
+      "name": "McLaren MP4-Ayrton Senna",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/McLaren MP4-Ayrton Senna/McLaren MP4-Ayrton Senna_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 24,
+      "name": "Mercedes-AMG PETRONAS W15",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Mercedes-AMG PETRONAS W15/Mercedes-AMG PETRONAS W15_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 25,
+      "name": "Oracle Red Bull Racing RB20",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Oracle Red Bull Racing RB20/Oracle Red Bull Racing RB20_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 26,
+      "name": "Ferrari SF-24 F1",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Speed Champions Formula 1 Ferrari SF-24 F1/Speed Champions Formula 1 Ferrari SF-24 F1_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 27,
+      "name": "Williams Racing FW46",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 2,
+      "brand": "Lego F1",
+      "img": "./images/Lego_F1/Williams Racing FW46/Williams Racing FW46_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 28,
+      "name": "Ahsoka Death Trooper & Night Trooper Battle Pack",
+      "price": 739000,
+	  "price_old": 839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Ahsoka Death Trooper & Night Trooper Battle Pack/Ahsoka Death Trooper & Night Trooper Battle Pack_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 29,
+      "name": "Andor Rebel U-Wing Starfighter",
+      "price": 1739000,
+	  "price_old": 1839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Andor Rebel U-Wing Starfighter/Andor Rebel U-Wing Starfighter_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 30,
+      "name": "ARC-170 Starfighter",
+      "price": 3739000,
+	  "price_old": 3839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/ARC-170 Starfighter/ARC-170 Starfighter_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 31,
+      "name": "Brick-Built Star Wars Logo",
+      "price": 3739000,
+	  "price_old": 3839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Brick-Built Star Wars Logo/Brick-Built Star Wars Logo_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 32,
+      "name": "Buildable Droideka",
+      "price": 1739000,
+	  "price_old": 1839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Buildable Droideka/Buildable Droideka_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 33,
+      "name": "Darth Maul Mech",
+      "price": 2739000,
+	  "price_old": 2839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Darth Maul Mech/Darth Maul Mech_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 34,
+      "name": "Desert Skiff & Sarlacc Pit",
+      "price": 3739000,
+	  "price_old": 3839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Desert Skiff & Sarlacc Pit/Desert Skiff & Sarlacc Pit_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 35,
+      "name": "Helmet Collection Jango Fett Helmet",
+      "price": 5739000,
+	  "price_old": 5839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Helmet Collection Jango Fett Helmet/Helmet Collection Jango Fett Helmet_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    },
+	{
+      "id": 36,
+      "name": "Jabba's Sail Barge",
+      "price": 3739000,
+	  "price_old": 3839000,
+      "category": 4,
+      "brand": "Lego Star Wars",
+      "img": "./images/Lego_Star_Wars/Jabba's Sail Barge/Jabba's Sail Barge_1.jpg",
+      "description": "<p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p><p>LEGO là thương hiệu đồ chơi lắp ráp nổi tiếng đến từ Đan Mạch, được hàng triệu trẻ em và người lớn trên toàn thế giới yêu thích. Với những viên gạch nhựa nhỏ có khả năng kết nối chặt chẽ với nhau, LEGO mở ra một thế giới sáng tạo không giới hạn – nơi người chơi có thể xây dựng bất cứ thứ gì họ tưởng tượng: từ những ngôi nhà, ô tô, robot, cho đến các thành phố thu nhỏ, mô hình máy bay hay những nhân vật trong phim bom tấn.</p>"
+    }
+  ]

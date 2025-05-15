@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Lego City",
+      "img": "./images/city.png"
+    },
+    {
+      "id": 2,
+      "name": "Lego F1",
+      "img": "./images/f1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lego Speed Champions",
+      "img": "./images/champion.png"
+    },
+    {
+      "id": 4,
+      "name": "Lego Star Wars",
+      "img": "./images/star_wars.jfif"
+    }
+  ]

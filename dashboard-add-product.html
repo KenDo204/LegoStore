@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/Lego-Logo-1955.png" type="image/x-icon">
+  <title>LegoStore - Dashboard</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <header>
+    <div class="header-dashboard">
+      <div class="logo">
+        <div class="menu-bar">
+          <i class="bi bi-list"></i>
+        </div>
+        <a href="dashboard.html">
+          <img src="./images/Lego-Logo-1955.png" alt="logo">
+        </a>
+      </div>
+      <div class="admin-user">
+        Xin chào, <strong>admin</strong>
+        <img src="images/avatar-admin.png" alt="avatar-admin">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="content-wrapper">
+      <div class="admin-navigation">
+        <div class="admin-nav-container">
+          <div class="admin-nav">
+            <ul class="nav-list">
+              <li class="root-nav-item">
+                <div class="nav-item-title">CHUNG</div>
+                <ul class="item-group">
+                  <li class="nav-item">
+                    <a href="dashboard.html">
+                      <i class="bi bi-speedometer2"></i>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a href="dashboard-add-product.html">
+                      <i class="bi bi-plus-square"></i>
+                      Thêm sản phẩm
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="dashboard-add-category.html">
+                      <i class="bi bi-plus-square"></i>
+                      Thêm danh mục
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav-list">
+              <li class="root-nav-item">
+                <div class="nav-item-title">QUẢN LÍ</div>
+                <ul class="item-group">
+                  <li class="nav-item">
+                    <a href="dashboard-products.html">
+                      <i class="bi bi-bag-plus-fill"></i>
+                      Sản phẩm
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="dashboard-categories.html">
+                      <i class="bi bi-link-45deg"></i>
+                      Danh mục
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <i class="bi bi-people-fill"></i>
+                      Người dùng
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <i class="bi bi-box"></i>
+                      Đơn hàng
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-content-inner">
+          <div class="add-product-wrapper">
+            <div class="add-product">
+              <form action="" class="frm-add-product">
+                <div class="frm-product-left">
+                  <div class="frm-title"><h4>Thêm sản phẩm</h4></div>
+                  <div class="frm-field">
+                    <label for="name">Tên sản phẩm:</label>
+                    <input type="text" id="name" name="name" placeholder="Tên sản phẩm" required="" oninvalid="setCustomValidity('Vui lòng điền tên sản phẩm')" oninput="setCustomValidity('')">
+                  </div>
+                  <div class="frm-group-flex">
+                    <div class="frm-field">
+                      <label for="price">Giá bán:</label>
+                      <input type="text" id="price" name="price" placeholder="Giá bán" required="" oninvalid="setCustomValidity('Vui lòng điền giá bán')" oninput="setCustomValidity('')">
+                    </div>
+                    <div class="frm-field">
+                      <label for="price-sale">Giá khuyến mãi:</label>
+                      <input type="text" id="price-sale" name="price-sale" placeholder="Giá khuyến mãi">
+                    </div>
+                    <div class="frm-field">
+                      <label for="name">Danh mục sản phẩm:</label>
+                      <select class="form-select p-2">
+                        <option value="Chuột chơi game" selected="">
+                          Chuột chơi game
+                        </option>
+                        <option value="Bàn phím cơ">Bàn phím cơ</option>
+                        <option value="Tai nghe gaming">
+                          Tai nghe gaming
+                        </option>
+                        <option value="Tay cầm chơi game">
+                          Tay cầm chơi game
+                        </option>
+                        <option value="Bàn ghế chơi game">
+                          Bàn ghế chơi game
+                        </option>
+                        <option value="Màn hình chơi game">
+                          Màn hình chơi game
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="frm-field">
+                    <label for="name">Mô tả sản phẩm:</label>
+                    <div id="editor">Mô tả sản phẩm</div>
+                  </div>
+                  <div class="mt-3">
+                    <button type="button" class="btn btn-danger">Huỷ</button>
+                    <button type="submit" class="btn btn-success">Lưu</button>
+                  </div>
+                </div>
+                <div class="frm-product-right">
+                  <div class="frm-title"><h4>Hình ảnh</h4></div>
+                  <div class="imageUpload">
+                    <div class="imageUpload-inner">
+                      <div class="imageUpload-icon">
+                        <i class="bi bi-arrow-up-circle-fill"></i>
+                      </div>
+                      <button type="button" class="btn-upload">
+                        Tải lên
+                      </button>
+                      <input type="file" id="file">
+                      <div class="imageUpload-description">
+                        click để tải hình ảnh lên
+                      </div>
+                      <div class="pic-uploaded">
+                        <img src="" alt="" class="image-uploaded">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- CKEditor 5 -->
+  <script src="js/ckeditor.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/ckeditor_1.js"></script>
+
+
+</body></html>

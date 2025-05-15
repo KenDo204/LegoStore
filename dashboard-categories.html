@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Lego-Logo-1955.png" type="image/x-icon">
+    <title>LegoStore - Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-dashboard">
+        <div class="logo">
+          <div class="menu-bar">
+            <i class="bi bi-list"></i>
+          </div>
+          <a href="dashboard.html">
+            <img src="./images/Lego-Logo-1955.png" alt="logo">
+          </a>
+        </div>
+        <div class="admin-user">
+          Xin chào, <strong>admin</strong>
+          <img src="images/avatar-admin.png" alt="avatar-admin">
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content-wrapper">
+        <div class="admin-navigation">
+          <div class="admin-nav-container">
+            <div class="admin-nav">
+              <ul class="nav-list">
+                <li class="root-nav-item">
+                  <div class="nav-item-title">CHUNG</div>
+                  <ul class="item-group">
+                    <li class="nav-item">
+                      <a href="dashboard.html">
+                        <i class="bi bi-speedometer2"></i>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="dashboard-add-product.html">
+                        <i class="bi bi-plus-square"></i>
+                        Thêm sản phẩm
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="dashboard-add-category.html">
+                        <i class="bi bi-plus-square"></i>
+                        Thêm danh mục
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav-list">
+                <li class="root-nav-item">
+                  <div class="nav-item-title">QUẢN LÍ</div>
+                  <ul class="item-group">
+                    <li class="nav-item">
+                      <a href="dashboard-products.html">
+                        <i class="bi bi-bag-plus-fill"></i>
+                        Sản phẩm
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="dashboard-categories.html">
+                        <i class="bi bi-link-45deg"></i>
+                        Danh mục
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        <i class="bi bi-people-fill"></i>
+                        Người dùng
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#">
+                        <i class="bi bi-box"></i>
+                        Đơn hàng
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="main-content-inner">
+            <div class="products-wrapper">
+              <div class="d-flex justify-content-between mb-3">
+                <h3>Danh mục</h3>
+                <button type="button" class="btn btn-success">
+                  <a class="text-light" href="dashboard-add-category.html">Thêm danh mục</a>
+                </button>
+              </div>
+              <div class="products">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Hình ảnh</th>
+                      <th scope="col">Tên danh mục</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody id="table-body">
+                    <tr>
+                        <td>
+                            <div class="product-image">
+                                <a href="dashboard-edit-category.html?id=1">
+                                    <img src="./images/city.png" alt="">
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product-td">
+                                <strong>
+                                    <h6>
+                                        <a href="dashboard-edit-category.html?id=1">Lego City</a>
+                                    </h6>
+                                </strong>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="confirmDelete(1)">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product-image">
+                                <a href="dashboard-edit-category.html?id=2">
+                                    <img src="./images/f1.jpg" alt="">
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product-td">
+                                <strong>
+                                    <h6>
+                                        <a href="dashboard-edit-category.html?id=2">Lego F1</a>
+                                    </h6>
+                                </strong>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="confirmDelete(2)">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product-image">
+                                <a href="dashboard-edit-category.html?id=3">
+                                    <img src="./images/champion.png" alt="">
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product-td">
+                                <strong>
+                                    <h6>
+                                        <a href="dashboard-edit-category.html?id=1">Lego Speed Champions</a>
+                                    </h6>
+                                </strong>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="confirmDelete(3)">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product-image">
+                                <a href="dashboard-edit-category.html?id=4">
+                                    <img src="./images/star_wars.jfif" alt="">
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product-td">
+                                <strong>
+                                    <h6>
+                                        <a href="dashboard-edit-category.html?id=4">Lego Star Wars</a>
+                                    </h6>
+                                </strong>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="confirmDelete(4)">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Button trigger modal -->
+    <button type="button" id="btnModal" style="display: none" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalLabel">XOÁ DANH MỤC</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body w-100 d-flex justify-content-center align-items-center flex-column">
+            <h3>Bạn có chắc muốn xoá không?</h3>
+          </div>
+          <div class="modal-footer w-100 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Huỷ
+            </button>
+            <button type="button" class="btn btn-danger" id="btn-delete" data-bs-dismiss="modal">
+              Xoá
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/dashboard-category.js"></script>
+  
+
+</body></html>
